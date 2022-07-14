@@ -1,6 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Matches Simulator</string>
-    <string name="team_image_home">team image home</string>
+    <string name="team_image_home">team_image_home</string>
     <string name="home_team">Home Team</string>
     <string name="score_default">00</string>
     <string name="versus">X</string>
