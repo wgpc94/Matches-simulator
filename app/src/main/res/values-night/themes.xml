@@ -14,7 +14,7 @@
         <!-- Customize your theme here. -->
     </style>
 
-    <style name="Theme.Activity_Detail" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+    <style name="Theme.Activity_Detail" parent="Theme.MaterialComponents.Light.NoActionBar">
         <item name="android:windowTranslucentStatus">true</item>
     </style>
 

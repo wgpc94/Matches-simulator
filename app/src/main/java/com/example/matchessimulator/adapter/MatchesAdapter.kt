@@ -10,7 +10,7 @@ import com.example.matchessimulator.domain.Match
 import com.example.matchessimulator.ui.DetailActivity
 
 data class MatchesAdapter(
-    val matchList: MutableList<Match>
+    val matchList: MutableList<Match> = mutableListOf()
 ) : RecyclerView.Adapter<MatchesAdapter.ViewHolder>() {
 
 

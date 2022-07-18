@@ -28,6 +28,13 @@ class DetailActivity : AppCompatActivity() {
             Glide.with(this).load(it?.place?.image).into(binding.ivPlace)
             Glide.with(this).load(it?.homeTeam?.image).into(binding.ivHomeTeam)
             Glide.with(this).load(it?.visitingTeam?.image).into(binding.ivAwayTeam)
+            if (it?.visitingTeam?.score != null){
+                binding.tvAwayTeamScore.text = it.visitingTeam.score.toString()
+            }
+            if (it?.homeTeam?.score != null){
+                binding.tvHomeTeamScore.text = it.homeTeam.score.toString()
+            }
+            binding.tvDescription.text = it?.description
             if (it != null) {
                 binding.rbHomeTeamStars.rating = it.homeTeam.stars.toFloat()
             }
